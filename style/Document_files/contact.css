@@ -1,0 +1,84 @@
+body{
+    background-image: url("cont3.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    color:rgb(75, 75, 75);
+    background-attachment: fixed;
+  }
+  
+  #my-nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 3px 5px ;
+      overflow: hidden;
+      float: left;
+    }
+    
+    #li-top {
+      float: left;
+    }
+    
+    #li-top a {
+      display: block;
+      color:rgb(75, 75, 75);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    #li-top a:hover {
+      
+    }
+  
+  #logo{
+    font-size: 40px;
+    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Allura', cursive;
+    font-family: 'Parisienne', cursive;
+  }
+  
+  #flooter{
+    padding: 2% 0% 0% 0%;
+    margin-top: 0;
+    text-align: center;
+  }
+   .logo-flooter{
+    margin-bottom: 30px;
+    list-style-type: none;
+    float: none;
+  }
+  
+  .flooter-line{
+    color:rgb(75, 75, 75);
+    margin-bottom: 0;
+    margin: 10% 20% 0 20%;
+  }
+
+  h2{
+      text-align: center;
+  }
+  
+  .icon{
+      max-width: 100px;
+      margin-right: 30px;
+      height: auto;
+  }
+  .icon2{
+      max-width: 50px;
+      height: auto;
+  }
+
+  .allinform {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 8px 4px;
+    margin-left: 35%;
+  }
+
+  .inform {
+    flex: 50%;
+    max-width: 5%;
+  }
