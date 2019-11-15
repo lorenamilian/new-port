@@ -56,9 +56,10 @@ font-family: 'Parisienne', cursive;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 400px;
-    background-color: rgb(198, 233, 235);
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73);
     margin-right: 50px;
+    padding: 7px;
   }
 
   /* On mouse-over, add a deeper shadow */
