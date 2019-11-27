@@ -1,0 +1,32 @@
+{
+  "name": "newportfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "portfolio.js",
+  "scripts": {
+    "start": "node portfolio.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenamilian/new-port.git"
+  },
+  "keywords": [
+    "portfolio",
+    "projects",
+    "contactInform",
+    "abut",
+    "me"
+  ],
+  "author": "lorenalies2312@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lorenamilian/new-port/issues"
+  },
+  "homepage": "https://github.com/lorenamilian/new-port#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1"
+  }
+}
