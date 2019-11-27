@@ -80,6 +80,7 @@ h2 {
 .inform {
   flex: 50%;
   max-width: 33%;
+  text-align: left;
 }
 
 ul {
