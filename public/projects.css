@@ -1,10 +1,10 @@
 body {
-  background-image: url("b.jpg");
+  background-image: url("back2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
-  color: azure;
+  color: rgb(255, 255, 255);
   margin: 20px 50px;
   font-family: "Pontano Sans", sans-serif;
   /* font-family: "Pavanam", sans-serif; */

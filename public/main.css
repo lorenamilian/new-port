@@ -1,73 +1,69 @@
-body{
-  background-image: url("b2.jpg");
+body {
+  background-image: url("l.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
   text-align: center;
-  color:white;
+  color: rgb(255, 255, 255);
   background-attachment: fixed;
+  font-family: "Pontano Sans", sans-serif;
+  font-family: "Pavanam", sans-serif;
 }
 
 #my-nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 3px 5px ;
-    overflow: hidden;
-    float: left;
-  }
-  
-  #li-top {
-    float: left;
-  }
-  
-  #li-top a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  #li-top a:hover {
-    
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 5px;
+  overflow: hidden;
+  float: left;
+  background-attachment: fixed;
+}
 
-.myself{
+#li-top {
+  float: left;
+}
+
+#li-top a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.myself {
   display: block;
   margin-right: auto;
   margin-left: auto;
   width: 400px;
   height: 480px;
-  box-shadow: 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 8px 16px 0 rgba(0, 0, 0, 0.2);
   object-fit: cover;
   margin-top: 80px;
-  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 80px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2),
+    0 16px 80px 0 rgba(0, 0, 0, 0.19);
   border-radius: 100%;
-
 }
-#logo{
+#logo {
   font-size: 40px;
-  font-family: 'La Belle Aurore', cursive;
-  font-family: 'Allura', cursive;
-  font-family: 'Parisienne', cursive;
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Allura", cursive;
+  font-family: "Parisienne", cursive;
 }
 
-#flooter{
+#flooter {
   padding: 2% 0% 0% 0%;
   margin-top: 0;
   text-align: center;
 }
- .logo-flooter{
+.logo-flooter {
   margin-bottom: 30px;
   list-style-type: none;
   float: none;
 }
 
-.flooter-line{
+.flooter-line {
   border: 0.4px solid rgb(255, 255, 255);
   margin-bottom: 0;
   margin: 10% 20% 0 20%;
 }
-
-
-

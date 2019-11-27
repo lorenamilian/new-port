@@ -1,104 +1,103 @@
-body{
-    background-image: url("cont3.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    text-align: center;
-    color:rgb(75, 75, 75);
-    background-attachment: fixed;
-  }
-  
-  #my-nav {
-      list-style-type: none;
-      margin: 0;
-      padding: 3px 5px ;
-      overflow: hidden;
-      float: right;
-    }
-    
-    #li-top {
-      float: left;
-    }
-    
-    #li-top a {
-      display: block;
-      color:rgb(75, 75, 75);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-    
-    #li-top a:hover {
-      
-    }
-  
-  #logo{
-    font-size: 40px;
-    font-family: 'La Belle Aurore', cursive;
-    font-family: 'Allura', cursive;
-    font-family: 'Parisienne', cursive;
-  }
-  
-  #flooter{
-    padding: 2% 0% 0% 0%;
-    margin-top: 0;
-    text-align: center;
-    padding-left: 34%;
-  }
-   .logo-flooter{
-    margin-bottom: 30px;
-    list-style-type: none;
-    float: none;
-  }
-  
-  .flooter-line{
-    color:rgb(75, 75, 75);
-    margin-bottom: 0;
-    margin: 4% 20% 0 20%;
-  }
-
-  h2{
-      text-align: center;
-  }
-  
-  .icon{
-      max-width: 100px;
-      margin-right: 30px;
-      height: 50px;
-      padding-top: 25px;
-  }
-
-  .allinform {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px;
-    padding: 8px 4px;
-    margin-left: 50%;
-  }
-
-  .inform {
-    flex: 50%;
-    max-width: 33%;
-  }
-
-  ul{
-      display: flex;
-      list-style-type: none;
-  }
-  .icon-link{
-    max-width: 100%;
-    margin-right: 30px;
-    padding-top: 200px;
+body {
+  background-image: url("cont3.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  text-align: center;
+  color: rgb(75, 75, 75);
+  background-attachment: fixed;
+  font-family: "Pontano Sans", sans-serif;
+  /* font-family: "Pavanam", sans-serif; */
 }
 
-
-#links{
-    display: flex;
-    padding-left: 38%;
-    list-style-type: none;
-    width: 400px;
-    
+#my-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px 5px;
+  overflow: hidden;
+  float: right;
 }
-#links a:hover{
-  opacity: 0.8;   
+
+#li-top {
+  float: left;
+}
+
+#li-top a {
+  display: block;
+  color: rgb(75, 75, 75);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#li-top a:hover {
+}
+
+#logo {
+  font-size: 40px;
+  font-family: "La Belle Aurore", cursive;
+  font-family: "Allura", cursive;
+  font-family: "Parisienne", cursive;
+}
+
+#flooter {
+  padding: 2% 0% 0% 0%;
+  margin-top: 0;
+  text-align: center;
+  padding-left: 34%;
+}
+.logo-flooter {
+  margin-bottom: 30px;
+  list-style-type: none;
+  float: none;
+}
+
+.flooter-line {
+  color: rgb(75, 75, 75);
+  margin-bottom: 0;
+  margin: 4% 20% 0 20%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon {
+  max-width: 100px;
+  margin-right: 30px;
+  height: 50px;
+  padding-top: 25px;
+}
+
+.allinform {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 8px 4px;
+  margin-left: 50%;
+}
+
+.inform {
+  flex: 50%;
+  max-width: 33%;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.icon-link {
+  max-width: 100%;
+  margin-right: 30px;
+  padding-top: 200px;
+}
+
+#links {
+  display: flex;
+  padding-left: 38%;
+  list-style-type: none;
+  width: 400px;
+}
+#links a:hover {
+  opacity: 0.8;
 }
