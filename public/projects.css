@@ -108,3 +108,48 @@ p {
 h4 {
   font-size: 115%;
 }
+@media only screen and (max-width: 700px) {
+  #li-top a {
+    padding: 6px 6px;
+  }
+  .inform {
+    margin: 0 20px;
+    font-size: 90%;
+  }
+  ul {
+    margin: 0;
+    padding: 0px 0px;
+    float: right;
+  }
+  li {
+    float: right;
+  }
+
+  li a {
+    padding: 1px 2px;
+    float: left;
+    margin-right: 0%;
+  }
+  .test {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    margin: 10px 14px;
+  }
+  .card {
+    float: left;
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    margin-right: 0px;
+    padding: 7px 7px 17px 7px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .flooter-line {
+    margin-bottom: 0;
+    width: 100%;
+  }
+}
